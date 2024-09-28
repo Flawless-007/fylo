@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+body {
+    min-height: 100vh;
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+img {
+    width: 20%;
+}
+.bo1 {
+    border: 2px solid black;
+    position: relative;
+    text-align: left;
+    padding: 1rem;
+}
+.bu1 {
+    position: absolute;
+    right: 0;
+    padding: 0.2rem;
+}
+.illustration {
+    border: 2px solid black;
+    width: 100%;
+}
+h1 {
+    margin-bottom: 30px;
+}
+input {
+    margin-top: 30px;
+    width: 75%;
+    height: 40px;
+}
+.c02 {
+    margin-top: 15px;
+    width: 75%;
+    height: 35px;
+}
+.illustration2 {
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 30px;
+}
+.fp {
+    border: 2px solid black;
+    padding: 1rem;
+    text-align: left;
+}
+.sp {
+    border: 2px solid black;
+}
