@@ -2,54 +2,203 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-} 
+}
 body {
+    border: 2px solid transparent;
     min-height: 100vh;
-    border: 2px solid black;
-    width: 100%;
     text-align: center;
 }
-img {
-    width: 20%;
-}
 .bo1 {
-    border: 2px solid black;
-    position: relative;
+    border: 2px solid transparent;
     text-align: left;
-    padding: 1rem;
+    padding: 0.5rem;
+}
+img {
+    width: 30%;
 }
 .bu1 {
     position: absolute;
     right: 0;
-    padding: 0.2rem;
+    margin-right: 10px;
+    word-spacing: 10px;
 }
-.illustration {
-    border: 2px solid black;
-    width: 100%;
+.bu {
+    border: none;
+    background-color: transparent;
+    color: hsl(238, 22%, 44%);
+    border-radius: 10%;
+    transition-duration: 0.2s;
+}
+.bimg1 {
+    border: 2px solid transparent;
+    margin-top: 50px;
+}
+.img1 {
+    width: 250px;
+    height: 250px;
 }
 h1 {
-    margin-bottom: 30px;
+    font-size: 28px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fpt {
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
 }
 input {
     margin-top: 30px;
     width: 75%;
     height: 40px;
 }
-.c02 {
+.bu2 {
     margin-top: 15px;
     width: 75%;
     height: 35px;
+    background-color: hsl(224, 93%, 58%);
+    color: whitesmoke;
+    border: none;
+    transition-duration: 0.2s;
 }
-.illustration2 {
-    border: 2px solid black;
-    width: 100%;
+.bimg2 {
+    border: 2px solid transparent;
+    margin-top: 50px;
+}
+.img2 {
+    width: 250px;
+    height: 250px;
+}
+h3 {
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 16px;
+}
+.bpt1 {
+    border: 2px solid transparent;
+    text-align: left;
+    margin-top: 5px
+}
+.spt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    padding: 1rem;
+    color: gray;
+}
+.wierd {
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+}
+.arrow {
+    border: 2px solid transparent;
+}
+.ft {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(170, 45%, 43%);
+    text-decoration: underline;
+}
+.img3 {
+    width: 25px;
+    position: relative;
+    transform: translateY(.4rem);
+}
+.wierd2 {
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.bpt2 {
+    border: 2px solid transparent;
+    border-radius: 15px;
+    box-shadow: 15px 10px 15px 1px;
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img4 {
+    width: 20px;
+}
+.img5 {
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: inherit;
+}
+.tt {
+    position: absolute;
+    top: 214%;
+    font-weight: bolder;
+}
+.fott {
+    margin-left: 10px;
+}
+.bo2 {
+    background-color: hsl(238, 22%, 44%);
+    color: whitesmoke;
+    padding: 1rem;
+}
+p {
     margin-top: 30px;
 }
-.fp {
-    border: 2px solid black;
-    padding: 1rem;
-    text-align: left;
+.input2 {
+    width: 250px;
+    height: 40px;
 }
-.sp {
-    border: 2px solid black;
+.bu3 {
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: whitesmoke;
+    transition-duration: 0.2s;
+}
+.last {
+    border: 2px solid transparent;
+    background-color: hsl(243, 87%, 12%);
+    text-align: left;
+    padding: 2rem;
+}
+.img6 {
+    width: 50%;
+}
+.img7 {
+    width: 25px;
+}
+.img8 {
+    width: 25px;
+}
+.ltext1 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+}
+.ltext2 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+}
+.bu4 {
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    transition-duration: 0.2s;
+}
+button:hover {
+    background-color: hsl(243, 87%, 12%);
+    cursor: pointer;
+}
+@media screen and (max-width: 576px;) {
+    .border {
+        width: 20rem;
+        height: 45rem;
+    
+    }
+    .border img {
+        margin: 2rem 0;
+    }
+
 }
