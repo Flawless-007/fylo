@@ -11,7 +11,7 @@ body {
 }
 
 .bo1 {
-    border: 2px solid transparent;
+    border: 2px solid blend;
     text-align: left;
     padding: 0.5rem;
 }
@@ -133,6 +133,7 @@ h3 {
 
 .bpt2 {
     border: 2px solid transparent;
+    background-color: whitesmoke;
     border-radius: 15px;
     box-shadow: 15px 10px 15px 1px;
     text-align: left;
